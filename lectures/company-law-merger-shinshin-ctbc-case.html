@@ -76,6 +76,9 @@
   .think-box{ background:rgba(44,74,118,0.06); border:1px solid rgba(44,74,118,0.22); border-radius:8px; padding:1rem 1.2rem; margin:1rem 0; }
   .think-title{ font-weight:700; color:var(--indigo); font-size:.92rem; margin:0 0 .6rem; }
   .think-text{ font-size:.9rem; color:var(--ink-70); margin:0; line-height:1.8; }
+  .video-frame{ position:relative; width:100%; aspect-ratio:16/9; margin-top:.8rem; border-radius:6px; overflow:hidden; }
+  .video-frame iframe{ position:absolute; inset:0; width:100%; height:100%; border:0; }
+  .video-box summary{ cursor:pointer; font-size:.85rem; color:var(--indigo); margin-top:.8rem; }
   .todo-desc{
     font-size:.9rem;
     color:var(--todo);
@@ -351,6 +354,22 @@
         <p class="hint-tip">思考方向：現金對價跟股票對價，對應賣股東而言最大的差異是什麼？金管會為何偏好現金收購？</p>
       </li>
     </ul>
+
+    <div class="think-box video-box">
+      <p class="think-title">🎬 補充影片（70秒）：停止過戶與公開收購的時程競合</p>
+      <div class="video-frame">
+        <iframe src="https://www.youtube-nocookie.com/embed/2Ub7uFOjU_g"
+                title="停止過戶：中信金為什麼趕不上"
+                loading="lazy"
+                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+      </div>
+      <span class="evidence-caption">教師提供之補充教材，AI語音與程式動畫製作，內容依公開資料與新聞報導整理，僅供教學使用。</span>
+      <details>
+        <summary>影片旁白全文</summary>
+        <p class="think-text">台新金和新光金的董事會通過合併。隔天，中信金宣布公開收購新光金。合併要由新光金股東會投票。中信金直接向股東買股票，買夠多就能影響結果。股東會訂在10月9日。中信金買到的股份，趕得上這次投票嗎？公司法第165條第3項規定，公開發行公司在股東臨時會前30日內，不能辦理過戶。從10月9日往前算30日，停止過戶從9月10日開始。之後才過戶的股份，這次不能投票。中信金8月26日申請核准，金管會9月16日決定緩議，已經過了9月10日。就算當天核准，公開收購的股份也趕不上這次股東會。經營權之爭，比的不只是出價，還有時間。看到收購新聞，先查股東會日期，再往前算30日。</p>
+      </details>
+    </div>
   </section>
 
   <section id="strategy">
